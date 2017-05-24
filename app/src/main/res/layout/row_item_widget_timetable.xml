@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutTimeAuditorium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_date"
+        android:layout_margin="8dp"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:id="@+id/textView_time_widget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="8.00-9.35"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/textView_type_of_loading_widget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Лабораторная работа"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/textView_auditorium_widget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:text="301-1"
+            android:textColor="#fff" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView_discipline_widget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativeLayoutTimeAuditorium"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="4dp"
+        android:text="Администрирование информационных систем и веб-порталов"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">APTimetable</string>
+    <string name="id_label">The ID is</string>
+    <string name="id_value">[id]</string>
+    <string name="content_label">The Content is</string>
+    <string name="content_value">[content]</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Настройки</string>
+
+    <string name="academic_plan">Курсовой проект</string>
+    <string name="title">Расписание учебных занятий БГТУ</string>
+    <string name="site">belstu.by</string>
+
+    <string name="timetableView">Расписание</string>
+    <string name="faculties">Факультеты</string>
+    <string name="specialties">Специальности</string>
+    <string name="disciplines">Дисциплины</string>
+
+    <string name="info">Дополнительная информация</string>
+
+    <string name="short_name">Сокращенное название</string>
+    <string name="full_name">Полное название</string>
+
+    <string name="update">Обновить</string>
+    <string name="save">Сохранить</string>
+
+    <string name="faculty">Факультет:</string>
+    <string name="course">Курс:</string>
+    <string name="semester">Семестр:</string>
+    <string name="date">Дата:</string>
+    <string name="calendar">Календарь</string>
+    <string name="time">Время:</string>
+    <string name="type_of_load">Тип занятия:</string>
+    <string name="discipline">Дисциплина:</string>
+    <string name="auditorium">Аудитория:</string>
+    <string name="specialty">Специальность:</string>
+    <string name="group">Группа:</string>
+    <string name="subgroup">Подгруппа:</string>
+    <string name="teacher">Преподаватель:</string>
+    <string name="number_of_week">Номер недели:</string>
+    <string name="stream">Поток:</string>
+    <string name="search">Найти</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>

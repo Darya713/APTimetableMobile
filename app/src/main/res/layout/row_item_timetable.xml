@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:textColor="#1A237E"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="03.04.2017" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutTimeAuditorium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_date"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:id="@+id/textView_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_marginLeft="8dp"
+            android:text="8.00-9.35" />
+
+        <TextView
+            android:id="@+id/textView_auditorium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="301-1"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imageView"
+            android:layout_toStartOf="@+id/imageView" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_auditorium"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:id="@+id/imageView" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/relativeLayoutTimeAuditorium"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#767676" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutDisciplineWeek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <TextView
+            android:id="@+id/textView_type_of_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Лабораторная работа" />
+
+        <TextView
+            android:id="@+id/textView_week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Недели: "
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/number_of_week"
+            android:layout_toStartOf="@+id/number_of_week" />
+
+        <TextView
+            android:id="@+id/number_of_week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Все"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView_discipline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativeLayoutDisciplineWeek"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Администрирование информационных систем и веб-порталов" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutTeacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_discipline"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            android:id="@+id/imageTeacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_teacher" />
+
+        <TextView
+            android:id="@+id/textView_teacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Смелов Владимир Владиславович"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imageTeacher"
+            android:layout_toEndOf="@+id/imageTeacher" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
